@@ -1,11 +1,12 @@
 using System;
 
 public class CharacterSelect
+
 {
 	public CharacterProfile fox;
 	public CharacterProfile falco;
 	public CharacterProfile jigglypuff;	
-	
+	public Speed CharacterSpeed;
 
 	
     public void Main()
@@ -14,7 +15,7 @@ public class CharacterSelect
         falco = new CharacterProfile();
         jigglypuff = new CharacterProfile();
 
-        Console.WriteLine("Starfox's poster child and the game's most busted character. Plays" + foxSpeed + " and has a damage output of " + foxDamage)
+        Console.WriteLine("Starfox's poster child and the game's most busted character. Plays" + CharacterSpeed.foxSpeed + " and has a damage output of " + CharacterProfile.foxDamage);
     }
 	
 	
