@@ -3,38 +3,33 @@ using System;
 public class CharacterSelect
 
 {
-	public CharacterProfile fox;
-	public CharacterProfile falco;
-	public CharacterProfile jigglypuff;	
-	public Speed CharacterSpeed;
+	public CharacterBase spacie;
+	public Speed characterSpeed;
 
 	
     public void Main()
     {
-        fox = new CharacterProfile();
-        falco = new CharacterProfile();
-        jigglypuff = new CharacterProfile();
+        spacie = new CharacterBase();
+		characterSpeed = new Speed();
+      
+		
+		Console.WriteLine(spacie.baseJabDmg);
 
-        Console.WriteLine("Starfox's poster child and the game's most busted character. Plays" + CharacterSpeed.foxSpeed + " and has a damage output of " + CharacterProfile.foxDamage);
     }
 	
 	
 }
 	
 
-public class CharacterProfile {
-	public int foxDamage = 20;
-	public int falcoDamge = 30;
-	public int puffDamage = 80;
+public class CharacterBase {
+	public int baseJabDmg = 3;
+	public int baseSpecialDmg = 12;
+	public int baseDtiltDmg = 10;
 }
 
 public class Speed {
     public string foxSpeed = "fast";
     public string falcoSpeed = "medium";
-    public string puffSpeed = "slow";
 }
 
-public class Damage {
-    public int baseDamage = 20;
-   
-}
+
