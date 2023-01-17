@@ -22,8 +22,8 @@ public class Program
 		heroTwo.powerLevel = 1;
 		heroTwo.attackSpeed = 10;
 
-		heroThree.health = 7;
-		heroThree.powerLevel = 3;
+		heroThree.health = heroOne.health*2;
+		heroThree.powerLevel = heroOne.powerLevel*2;
 		heroThree.attackSpeed = 6;
 		
 		Console.WriteLine(heroOne.health);
