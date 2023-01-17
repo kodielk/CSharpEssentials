@@ -1,5 +1,4 @@
-//Use this file to store your work to demonstrate your understanding of operators
-//Make sure your work is different from the instructors examples or your peers
+using System;
 
 public class ClassExample
 {
@@ -10,12 +9,14 @@ public class ClassWithVariables
 {
     public int number = 2;
     public string userName = "Bob";
+    public float fancyNumber = 72.998f;
+    public int numberTwo = 3+45/3
 }
 
 public class ClassWithFunctions
 {
-    public void RunFunction()
+    public void Main()
     {
-        Console.WriteLine("Running Function");
+        Console.WriteLine("Running Function" + " Succesfuly ran." );
     }
 }   
