@@ -40,7 +40,7 @@ public class Operations
 	{
 		if (password == "KEKW")
 		{
-			Console.WriteLine("Correct Password");
+			Console.WriteLine("CIA Files Accessed.");
 		}
 		else
 		{
