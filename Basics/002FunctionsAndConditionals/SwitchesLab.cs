@@ -12,8 +12,7 @@ public class Program
 	}
 }
 
-public class GameStates {
-	
+public class GameStates{
 	public enum States {
 		Starting,
 		Playing,
@@ -22,7 +21,7 @@ public class GameStates {
 	
 	public States currentState = States.Starting;
 	
-	public void CheckState () {
+	public void CheckState() {
 		switch (currentState) {
 			case States.Starting:
 				Console.WriteLine("Starting");
@@ -35,4 +34,5 @@ public class GameStates {
 				break;
 		}
 	}
+
 }
